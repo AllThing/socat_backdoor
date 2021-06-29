@@ -32,7 +32,7 @@ How likely is it a human error?
 
 ![reversed dh](http://i.imgur.com/L0VxosD.png)
 
-* [Someone proposed](https://www.reddit.com/r/crypto/comments/43wh7h/the_socat_backdoor/czlxydf) "Swap each 4-byte section or 8-byte section as though someone messed up endian conversion." I haven't tried that yet.
+* [Someone proposed](https://www.reddit.com/r/crypto/comments/43wh7h/the_socat_backdoor/czlxydf) "Swap each 4-byte section or 8-byte section as though someone messed up endian conversion." It turns out that both these cases are [not primes](https://play.golang.org/p/bRkXw6oVWHM).
 
 # Pohlig Hellman and small subgroup attacks
 
